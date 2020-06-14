@@ -32,7 +32,7 @@ export default function Layout({ children }) {
                     font-style: normal;
                 `}
                 >
-                    Pandas Eating Lots
+                    {data.site.siteMetadata.title}
                 </h3>
             </Link>
             <Link
