@@ -77,6 +77,9 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 6. This onCreateNode function will be called by Gatsby whenever a new node is created (or updated).
 7. you will use this API to add slugs for your Markdown pages to MarkdownRemark nodes.
 8. Change your function so it now only logs MarkdownRemark nodes.
+9. You want to use each markdown file name to create the page slug. So pandas-and-bananas.md will become /pandas-and-bananas/
+10.  To get it, you need to traverse the “node graph” to its parent File node, as File nodes contain data you need about files on disk.
+11.  To do that, you’ll use the getNode() helper. Add it to onCreateNode’s function parameters, and call it to get the file node:
 
 ## //////////// AUTO GENERATED ///////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
