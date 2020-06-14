@@ -51,6 +51,8 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 2. Gatsby supports transformer plugins which take raw content from source plugins and transform it into something more usable.
 3. Add a markdown file to your site at src/pages/sweet-pandas-eating-sweets.md
 4. learn how to transform it to HTML using transformer plugins and GraphQL.
+5. gatsby-source-filesystem is always scanning for new files to be added and when they are, re-runs your queries.
+6. Add a transformer plugin that can transform markdown files: npm install --save gatsby-transformer-remark
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
