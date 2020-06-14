@@ -46,6 +46,12 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 2. First, install the plugin at the root of the project: npm install --save gatsby-source-filesystem
 3. Click the allFile dropdown. Position your cursor after allFile in the query area, and then type Ctrl + Enter. This will pre-fill a query for the id of each file. Press “Play” to run the query:
 
+### Transformer plugins
+1. In this tutorial, you’ll learn how transformer plugins transform the raw content brought by source plugins. The combination of source plugins and transformer plugins can handle all data sourcing and data transformation you might need when building a Gatsby site.
+2. Gatsby supports transformer plugins which take raw content from source plugins and transform it into something more usable.
+3. Add a markdown file to your site at src/pages/sweet-pandas-eating-sweets.md
+4. learn how to transform it to HTML using transformer plugins and GraphQL.
+
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
