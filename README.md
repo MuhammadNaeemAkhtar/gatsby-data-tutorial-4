@@ -91,7 +91,7 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
   - Query data with GraphQL
   - Map the query results to pages
 2. You need one additional thing beyond a slug to create pages: a page template component.
-
+3. The last step is to link to your new pages from the index page.
 
 ## //////////// AUTO GENERATED ///////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
