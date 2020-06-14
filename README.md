@@ -39,6 +39,11 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 2. GraphiQL is the GraphQL integrated development environment (IDE).
 3. You can access it when your site’s development server is running—normally at http://localhost:8000/___graphql
 4. Poke around the built-in Site “type” and see what fields are available on it — including the siteMetadata object you queried earlier. Try opening GraphiQL and play with your data! Press Ctrl + Space (or use Shift + Space as an alternate keyboard shortcut) to bring up the autocomplete window and Ctrl + Enter to run the GraphQL query.
+5. The GraphiQL Explorer enables you to interactively construct full queries by clicking through available fields and inputs without the repetitive process of typing these queries out by hand.
+
+### Source plugins
+1. Source plugins fetch data from their source. E.g. the filesystem source plugin knows how to fetch data from the file system. The WordPress plugin knows how to fetch data from the WordPress API.
+2. First, install the plugin at the root of the project: npm install --save gatsby-source-filesystem
 
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
