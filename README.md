@@ -74,6 +74,7 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 3. Note: Often data sources will directly provide a slug or pathname for content — when working with one of those systems (e.g. a CMS), you don’t need to create the slugs yourself as you do with markdown files.
 4. To create your markdown pages, you’ll learn to use two Gatsby APIs: onCreateNode and createPages.
 5. To implement an API, you export a function with the name of the API from gatsby-node.js
+6. This onCreateNode function will be called by Gatsby whenever a new node is created (or updated).
 
 ## //////////// AUTO GENERATED ///////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
