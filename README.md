@@ -60,7 +60,8 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 11. But your one blog post looks a bit lonely. So let’s add another one at src/pages/pandas-and-bananas.md
 12. Which looks great! Except… the order of the posts is wrong.
 13. You can sort and filter nodes, set how many nodes to skip, and choose the limit of how many nodes to retrieve. With this powerful set of operators, you can select any data you want—in the format you need.
-
+14. But you don’t want to just see excerpts, you want actual pages for your markdown files.
+15. Gatsby is not limited to making pages from files like many static site generators. Gatsby lets you use GraphQL to query your data and map the query results to pages—all at build time. 
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
