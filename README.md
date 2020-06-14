@@ -86,6 +86,8 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 15. createNodeField. This function allows you to create additional fields on nodes created by other plugins.
 16. Only the original creator of a node can directly modify the node—all other plugins (including your gatsby-node.js) must use this function to create additional fields.
 
+### Creating pages
+
 
 ## //////////// AUTO GENERATED ///////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
