@@ -58,6 +58,8 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 9. create a list of your markdown files on the front page.
 10. you want to end up with a list of links on the front page pointing to each blog post.
 11. But your one blog post looks a bit lonely. So let’s add another one at src/pages/pandas-and-bananas.md
+12. Which looks great! Except… the order of the posts is wrong.
+13. You can sort and filter nodes, set how many nodes to skip, and choose the limit of how many nodes to retrieve. With this powerful set of operators, you can select any data you want—in the format you need.
 
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
