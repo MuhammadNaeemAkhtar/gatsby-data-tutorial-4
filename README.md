@@ -81,6 +81,10 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 10.  To get it, you need to traverse the “node graph” to its parent File node, as File nodes contain data you need about files on disk.
 11.  To do that, you’ll use the getNode() helper. Add it to onCreateNode’s function parameters, and call it to get the file node:
 12.  the gatsby-source-filesystem plugin ships with a function for creating slugs. 
+13. The function handles finding the parent File node along with creating the slug.
+14. Now you can add your new slugs directly onto the MarkdownRemark nodes
+15. createNodeField. This function allows you to create additional fields on nodes created by other plugins.
+16. Only the original creator of a node can directly modify the node—all other plugins (including your gatsby-node.js) must use this function to create additional fields.
 
 
 ## //////////// AUTO GENERATED ///////////////
