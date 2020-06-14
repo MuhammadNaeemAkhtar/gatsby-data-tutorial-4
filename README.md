@@ -63,7 +63,19 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 14. But you don’t want to just see excerpts, you want actual pages for your markdown files.
 15. Gatsby is not limited to making pages from files like many static site generators. Gatsby lets you use GraphQL to query your data and map the query results to pages—all at build time. 
 
-## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
+## Programmatically create pages from data
+
+### creating slugs for pages
+
+1. A ‘slug’ is the unique identifying part of a web address, such as the /tutorial/part-seven part of the page https://www.gatsbyjs.org/tutorial/part-seven/.
+2. Creating new pages has two steps:
+  - Generate the “path” or “slug” for the page.
+  - Create the page.
+3. Note: Often data sources will directly provide a slug or pathname for content — when working with one of those systems (e.g. a CMS), you don’t need to create the slugs yourself as you do with markdown files.
+4. To create your markdown pages, you’ll learn to use two Gatsby APIs: onCreateNode and createPages.
+5. To implement an API, you export a function with the name of the API from gatsby-node.js
+
+## //////////// AUTO GENERATED ///////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
