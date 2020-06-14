@@ -44,7 +44,7 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 ### Source plugins
 1. Source plugins fetch data from their source. E.g. the filesystem source plugin knows how to fetch data from the file system. The WordPress plugin knows how to fetch data from the WordPress API.
 2. First, install the plugin at the root of the project: npm install --save gatsby-source-filesystem
-
+3. Click the allFile dropdown. Position your cursor after allFile in the query area, and then type Ctrl + Enter. This will pre-fill a query for the id of each file. Press “Play” to run the query:
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
