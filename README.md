@@ -53,6 +53,11 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 4. learn how to transform it to HTML using transformer plugins and GraphQL.
 5. gatsby-source-filesystem is always scanning for new files to be added and when they are, re-runs your queries.
 6. Add a transformer plugin that can transform markdown files: npm install --save gatsby-transformer-remark
+7. Select allMarkdownRemark again and run it as you did for allFile. You’ll see there the markdown file you recently added. Explore the fields that are available on the MarkdownRemark node.
+8. Source plugins bring data into Gatsby’s data system and transformer plugins transform raw content brought by source plugins.
+9. create a list of your markdown files on the front page.
+10. you want to end up with a list of links on the front page pointing to each blog post.
+
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
