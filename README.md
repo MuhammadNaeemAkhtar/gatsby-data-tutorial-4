@@ -57,6 +57,7 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 8. Source plugins bring data into Gatsby’s data system and transformer plugins transform raw content brought by source plugins.
 9. create a list of your markdown files on the front page.
 10. you want to end up with a list of links on the front page pointing to each blog post.
+11. But your one blog post looks a bit lonely. So let’s add another one at src/pages/pandas-and-bananas.md
 
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
