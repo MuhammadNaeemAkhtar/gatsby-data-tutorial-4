@@ -33,6 +33,12 @@ Absolutely not! You can use the node createPages API to pull unstructured data i
 2. For now, keep in mind that only pages can make page queries.
 3. Non-page components, such as Layout, can use StaticQuery.
 
+### how to pull data into your Gatsby site using GraphQL and source plugins
+
+1. Before you learn about these plugins, however, you’ll want to know how to use something called GraphiQL, a tool that helps you structure your queries correctly.
+2. GraphiQL is the GraphQL integrated development environment (IDE).
+3. You can access it when your site’s development server is running—normally at http://localhost:8000/___graphql
+4. Poke around the built-in Site “type” and see what fields are available on it — including the siteMetadata object you queried earlier. Try opening GraphiQL and play with your data! Press Ctrl + Space (or use Shift + Space as an alternate keyboard shortcut) to bring up the autocomplete window and Ctrl + Enter to run the GraphQL query.
 
 
 ## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
