@@ -1,3 +1,41 @@
+# NOTES
+
+## dependencies
+
+Typography theme “Kirkham”, and CSS-in-JS library, “Emotion”
+
+npm install --save gatsby-plugin-typography typography react-typography typography-theme-kirkham gatsby-plugin-emotion @emotion/core
+
+Tutorial Link: https://www.gatsbyjs.org/tutorial/part-four/
+
+1. powerful feature of Gatsby that lets you easily build sites from Markdown, WordPress, headless CMSs, and other data sources of all flavors.
+2. Gatsby’s data layer is powered by GraphQL.
+3. For the purpose of working in Gatsby, however, a more useful answer is “everything that lives outside a React component” is Data.
+4. Data can also live in file types like Markdown, CSV, etc. as well as databases and APIs of all sorts. Gatsby’s data layer lets you pull data from these (and any other source) directly into your components — in the shape and form you want.
+5 Do I have to use GraphQL and source plugins to pull data into Gatsby sites? 
+Absolutely not! You can use the node createPages API to pull unstructured data into Gatsby pages directly, rather than through the GraphQL data layer. This is a great choice for small sites, while GraphQL and source plugins can help save time with more complex sites.
+6. if the site becomes more complex later on, you move on to building more complex sites, or you’d like to transform your data, follow these steps:
+  - Check out the Plugin Library to see if the source plugins and/or transformer plugins you’d like to use already exist
+  - If they don’t exist, read the Plugin Authoring guide and consider building your own!
+7. Gatsby uses GraphQL to enable components to declare the data they need. 
+8. GraphQL was invented at Facebook
+9. GraphQL is a query language (the QL part of its name).
+
+## GraphQL
+
+1. What if you want to change the site title in the future? You’d have to search for the title across all your components and edit each instance. This is both cumbersome and error-prone, especially for larger, more complex sites. Instead, you can store the title in one location and reference that location from other files; change the title in a single place, and Gatsby will pull your updated title into files that reference it.
+2. The place for these common bits of data is the siteMetadata object in the gatsby-config.js file. Add your site title to the gatsby-config.js file
+3. Now the site title is available to be queried; Add it to the about.js file using a page query:
+4. Page queries live outside of the component definition — by convention at the end of a page component file — and are only available on page components.
+
+### Static query
+1. StaticQuery is a new API introduced in Gatsby v2 that allows non-page components (like your layout.js component), to retrieve data via GraphQL queries. Let’s use its newly introduced hook version — useStaticQuery.
+2. For now, keep in mind that only pages can make page queries.
+3. Non-page components, such as Layout, can use StaticQuery.
+
+
+
+## ////////////////////////////////// AUTO GENERATED /////////////////////////////////////////
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
